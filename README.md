@@ -2,7 +2,7 @@ Reactive programming and locking patterns don't go together? Think again. Reacti
 
 It's great for transitioning a codebase from a classic threads & locks pattern to a more reactive environment and it's also great for transitioning a skill set from those classic patterns.
 
-Even with perfectly thread safe code a `ReactiveLock` can come in really handy to simply throttle a piece of code. There are many scenarios where reducing concurrency can actually increase throughput, e.g. when cometing for IO resources.
+Even with perfectly thread safe code a `ReactiveLock` can come in really handy to simply throttle a piece of code. There are many scenarios where reducing concurrency can actually increase throughput, e.g. when competing for IO resources.
 
 There are quite a few parallels to Actors here, but the mental model is simpler (even if arguably less powerful) especially if coming from Java.
 
